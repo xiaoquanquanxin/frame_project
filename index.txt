@@ -57,3 +57,7 @@ html5shiv                   向下兼容ie
 laypage                     分页
 echarts                     报表
 
+
+待定的插件:
+富文本编辑器
+
