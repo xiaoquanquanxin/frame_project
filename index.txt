@@ -9,10 +9,11 @@ aside  索引
 sections: frames
 
 
-组件:
-hui自带组件:
+
+自带组件:
+表单
 按钮
-图片/暂时2019年3月14日14:01:46,按需加载
+图片/暂时保留,2019年3月14日14:01:46,按需加载
 选项卡/移动端适配糟糕,待优化
 便签
 轮播/待优化
@@ -21,13 +22,38 @@ tip效果
 
 
 
-第三方组件:
-layerui
-jQuery.Huifold.js,百叶窗
-
-echarts/未录入
-
-
 自定义组件:
 表格
+
+
+
+插件:
+保留H-ui官方引用插件:
+jQuery.Huifold.js           百叶窗折叠
+jQuery.Huispinner.js        微调器
+jQuery.Huitab.js            选项卡/移动端适配糟糕,待优化
+jQuery.Huitextarealength.js 字数限制
+jQuery.Huitotop.js          返回顶部
+
+
+
+echarts/暂未录入
+
+从H-ui中删除的插件:
+jQuery.Huihover.js          hover
+jQuery.Huifocusblur.js      得到失去焦点
+jQuery.Huipreview.js        图片预览,效果差
+jQuery.Huitags.js           标签
+
+
+
+
+我录入的第三方插件:
+jquery
+layerui
+Hui-iconfont                阿里图标字体库（H-ui定制）
+Validform                   表单验证
+jquery.validation           表单验证*2          //  二选一,2019年3月14日14:58:22
+My97DatePicker              时间插件,暂时保留,2019年3月14日14:58:09
+html5shiv.js                向下兼容ie
 
