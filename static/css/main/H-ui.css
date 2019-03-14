@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* -----------H-ui前端框架-------------
-* H-ui.css v3.1.5
+* h-ui.css v3.1.5
 * http://www.h-ui.net/
 * Created & Modified by guojunhui
 * Date modified 2017.07.19
@@ -1064,7 +1064,7 @@ ul.inline > li,ol.inline > li{display:inline-block;*display:inline;padding-right
 
 /*3.1.23 描述
 	Name:			style_dldtdd
-	Example:		<dl class="dl-horizontal cl"><dt>H-ui</dt><dd>基于Bootstrap框架的改进扩展的前端框架</dd></dl>
+	Example:		<dl class="dl-horizontal cl"><dt>h-ui</dt><dd>基于Bootstrap框架的改进扩展的前端框架</dd></dl>
 	Explain:		.dl-horizontal 水平描述，默认不加为垂直模式。
 */
 .dl-horizontal.cl{}
@@ -3926,7 +3926,7 @@ a.modal-close:hover{ text-decoration: none}
       </div>
       <div class="Hui-tags-list">
         <div class="Hui-notag">暂无常用标签</div>
-        <div class="Hui-tags-has"><span>前端框架</span> <span>前端开发</span> <span>H-ui</span></div>
+        <div class="Hui-tags-has"><span>前端框架</span> <span>前端开发</span> <span>h-ui</span></div>
       </div>
       <input type="hidden" class="Hui-tags-val" name="" value="">
     </div>
@@ -4064,7 +4064,7 @@ a.modal-close:hover{ text-decoration: none}
       <span class="pipe">|</span>
       <a target="_blank" href="/juanzeng.html">感谢捐赠</a>
     </nav>
-    <p>Copyright &copy;2013-2016 H-ui.net All Rights Reserved. <br>
+    <p>Copyright &copy;2013-2016 h-ui.net All Rights Reserved. <br>
     <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn/">京ICP备10000000号</a><br>
     未经允许，禁止转载、抄袭、镜像</p>
   </div>
