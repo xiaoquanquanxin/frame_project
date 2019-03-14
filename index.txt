@@ -1,3 +1,33 @@
 布局
 1.响应式
 2.分模块
+
+
+模块:
+header 各种信息
+aside  索引
+sections: frames
+
+
+组件:
+hui自带组件:
+按钮
+图片/暂时2019年3月14日14:01:46,按需加载
+选项卡/移动端适配糟糕,待优化
+便签
+轮播/待优化
+popover效果
+tip效果
+
+
+
+第三方组件:
+layerui
+jQuery.Huifold.js,百叶窗
+
+echarts/未录入
+
+
+自定义组件:
+表格
+
