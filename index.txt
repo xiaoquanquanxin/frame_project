@@ -37,7 +37,6 @@ jQuery.Huitotop.js          返回顶部
 
 
 
-echarts/暂未录入
 
 从H-ui中删除的插件:
 jQuery.Huihover.js          hover
@@ -51,9 +50,10 @@ jQuery.Huitags.js           标签
 我录入的第三方插件:
 jquery
 layerui
-Hui-iconfont                阿里图标字体库（H-ui定制）
 Validform                   表单验证
 jquery.validation           表单验证*2          //  二选一,2019年3月14日14:58:22
 My97DatePicker              时间插件,暂时保留,2019年3月14日14:58:09
-html5shiv.js                向下兼容ie
+html5shiv                   向下兼容ie
+laypage                     分页
+echarts                     报表
 
