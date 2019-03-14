@@ -34,13 +34,12 @@ jQuery.Huispinner.js        微调器
 jQuery.Huitab.js            选项卡/移动端适配糟糕,待优化
 jQuery.Huitextarealength.js 字数限制
 jQuery.Huitotop.js          返回顶部
-
+jQuery.Huifocusblur.js      得到失去焦点
 
 
 
 从H-ui中删除的插件:
 jQuery.Huihover.js          hover
-jQuery.Huifocusblur.js      得到失去焦点
 jQuery.Huipreview.js        图片预览,效果差
 jQuery.Huitags.js           标签
 
