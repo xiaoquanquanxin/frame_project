@@ -1,0 +1,33 @@
+/*全局默认链接颜色*/
+:root {
+    --black: #000000;
+    --red: #ff0000;
+    --white: #ffffff;
+
+    --error: #cc0000;
+    --error-border: #cc0000;
+
+    --danger: #d9534f;
+    --danger-border: #d43f3a;
+
+    --warring: #f0ad4e;
+    --warring-border: #eea236;
+
+    --success: #5cb85c;
+    --success-boder: #4cae4c;
+
+    --info: #5bc0de;
+    --info-border: #46b8da;
+
+    --font-normal: #000000;
+    --font-dash: #555555;
+    --font-light: #cccccc;
+
+    --bgc-normal: #eeeeee;
+
+    --header-normal: #333333;
+    --header-blue: #6053ff;
+
+    --link-active:#000000;
+}
+
