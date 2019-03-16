@@ -20,6 +20,15 @@ header {
 .cursor_pointer {
     cursor: pointer;
 }
+.pos-fix{
+    position: fixed;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
 
 
 /*一些需要剥离的样式*/
@@ -87,4 +96,4 @@ header {
 .Hui-aside .menu_dropdown li.current a,.menu_dropdown li.current a:hover{color:#148cf1}
 .Hui-aside .menu_dropdown dt .Hui-iconfont{ color:#a0a7b1}
 .Hui-aside .menu_dropdown dt .menu_dropdown-arrow{ color:#b6b7b8}
-.dislpayArrow a{background:url(icon_arrow.png) no-repeat 0 0}
+.dislpayArrow a{background:grey}
