@@ -1,0 +1,4 @@
+pre{white-space: pre-wrap}	/*预格式化的文本*/
+.uppercase{text-transform:uppercase} /*文字大写*/
+.lowercase{text-transform:lowercase} /*文字小写*/
+.capitalize{text-transform:capitalize} /*首字母大写*/
