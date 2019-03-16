@@ -1,0 +1,11 @@
+body {
+    color: var(--info);
+    background-color: var(--bgc-normal);
+}
+header {
+    background-color: var(--header-blue);
+    color: var(--font-light);
+}
+a {
+    color: var(--link-active);
+}
