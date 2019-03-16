@@ -1,0 +1,47 @@
+/*媒体查询*/
+/*pc*/
+html{
+    height:100%;
+}
+body {
+    font-size: 16px;
+    min-height: 100%;
+    position: relative;
+}
+.visible-pad {
+    display: none;
+}
+.hidden-pad {
+    display: block;
+}
+.visible-mobile {
+    display: none;
+}
+.hidden-mobile {
+    display: block;
+}
+/*pad*/
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    .visible-pad {
+        display: block;
+    }
+    .hidden-pad {
+        display: none;
+    }
+}
+/*手机*/
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .visible-mobile {
+        display: block;
+    }
+    .hidden-mobile {
+        display: none;
+    }
+}
+
