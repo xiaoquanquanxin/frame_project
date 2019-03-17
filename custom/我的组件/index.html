@@ -8,6 +8,8 @@
     <title>我就不信了</title>
     <link rel="stylesheet" type="text/css" href="../../static/css/icon/iconfont.css"/>
     <link rel="stylesheet" href="css/reset.css">
+
+
     <link rel="stylesheet" href="color.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -27,9 +29,7 @@
         .dropdown {
             display: none;
         }
-        .menu_dropdown > dl dt {
-            background: grey;
-        }
+
         .menu_dropdown > dl:hover dd {
             /*display: block;*/
         }
@@ -58,9 +58,7 @@
         }
         /*header里面的hover下拉*/
         .dropdown {
-            background-color: var(--header-blue);
             margin: 0 -10px;
-            /*display: block;*/
         }
         .dropdown > li {
             padding: 0 10px;
@@ -70,6 +68,7 @@
         }
         .logo {
             width: 100px;
+            margin-top: -3px;
         }
     </style>
 </head>
@@ -79,10 +78,10 @@
     </div>
     <nav class="fl hidden-mobile">
         <ul class="clear" id="menu-controller">
-            <li class="header_list fl" data-index="0">平台1</li>
-            <li class="header_list fl" data-index="1">平台2</li>
-            <li class="header_list fl" data-index="2">平台3</li>
-            <li class="header_list fl" data-index="3">平台4</li>
+            <li class="header_list fl" data-index="0">菜单1</li>
+            <li class="header_list fl" data-index="1">菜单2</li>
+            <li class="header_list fl" data-index="2">菜单3</li>
+            <li class="header_list fl" data-index="3">菜单4</li>
         </ul>
     </nav>
     <nav class="fr hidden-mobile">
@@ -110,17 +109,17 @@
 <aside class="hidden-mobile Hui-aside">
     <div class="menu_dropdown bk_2" style="display: block;">
         <dl id="menu-article">
-            <dt><i class="Hui-iconfont"></i> 资讯管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+            <dt><i class="Hui-iconfont"></i>管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
             <dd>
                 <ul>
-                    <li><a data-href="../pages/1.html" data-title="资讯管理" href="javascript:void(0)">资讯管理</a></li>
-                    <li><a data-href="../pages/2.html" data-title="资讯管理" href="javascript:void(0)">资讯管理</a></li>
-                    <li><a data-href="../pages/3.html" data-title="资讯管理" href="javascript:void(0)">资讯管理</a></li>
+                    <li><a data-href="../pages/1.html" data-title="资讯管理" href="javascript:void(0)">资讯管理111</a></li>
+                    <li><a data-href="../pages/2.html" data-title="资讯管理" href="javascript:void(0)">资讯管理222</a></li>
+                    <li><a data-href="../pages/3.html" data-title="资讯管理" href="javascript:void(0)">资讯管理333</a></li>
                 </ul>
             </dd>
         </dl>
         <dl id="menu-picture">
-            <dt><i class="Hui-iconfont"></i> 图片管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
+            <dt><i class="Hui-iconfont"></i>图片管理<i class="Hui-iconfont menu_dropdown-arrow"></i></dt>
             <dd>
                 <ul>
                     <li><a data-href="../pages/3.html" data-title="图片管理" href="javascript:void(0)">图片管理</a></li>
@@ -160,7 +159,7 @@
     </div>
 
 </aside>
-<div class="dislpayArrow hidden-mobile"><a class="pngfix" href="javascript:void(0);" id="displaynavbar">←</a></div>
+<div class="dislpayArrow hidden-mobile"><a class="pngfix" href="javascript:void(0);" id="displaynavbar"></a></div>
 <section class="Hui-article-box">
     <div id="Hui-tabNav" class="Hui-tabNav hidden-mobile">
         <div class="Hui-tabNav-wp">
@@ -194,7 +193,7 @@
 <script src="./woyaoyongdejs/contextmenu/jquery.contextmenu.r2.js"></script>
 <script src="./woyaoyongdejs/h-ui.admin.js"></script>
 <script>
-    //  切换主要导航，平台1-4
+	//  切换主要导航，菜单-4
 	var menu_dropdown = $('.menu_dropdown');
 	$("#menu-controller").on('click', 'li', function () {
 		var $this = $(this);

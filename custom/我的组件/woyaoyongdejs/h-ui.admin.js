@@ -321,8 +321,9 @@ $(function () {
 
 
 	/*换肤*/
-	$("#change-skin").find("a").click(function () {
+	$("#change-skin").find("li").click(function () {
 		var v = $(this).attr("data-val");
+		console.log(v)
 		$.cookie("Huiskin", v);
 		$('#skin').attr('href', './css/skin/' + v + '.css');
 	});

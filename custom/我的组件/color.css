@@ -4,6 +4,7 @@
     --red: #ff0000;
     --white: #ffffff;
 
+    /*信息类*/
     --error: #cc0000;
     --error-border: #cc0000;
 
@@ -19,15 +20,37 @@
     --info: #5bc0de;
     --info-border: #46b8da;
 
+    /*文字类*/
     --font-normal: #000000;
     --font-dash: #555555;
     --font-light: #cccccc;
+    --font-whitesmoke: whitesmoke;
 
-    --bgc-normal: #ffffff;
+    /*特殊类*/
+    --link-active: #000000;
 
-    --header-normal: #333333;
+    /*背景色类 分区域 换色*/
+    /*header*/
+    --header-default: #111111;
+    --header-black: #000000;
     --header-blue: #6053ff;
+    /*menu*/
+    --menu_dropdown-dt-default: #333333;
+    --menu_dropdown-dd-default: #525252;
+    --menu_dropdown-a-default: #eeeeee;
 
-    --link-active:#000000;
+    --menu_dropdown-dt-blue: #3a5edd;
+    /*--menu_dropdown-dt-blue: #2D6DCC;*/
+    --menu_dropdown-dd-blue: #6583ff;
+    --menu_dropdown-a-blue: #eeeeee;
+
+    /*body*/
+    --bgc-default: #ffffff;
+    --bgc-blue: #ffffff;
+
+    /*!*border类*!*/
+    /*--border-default:#000000;*/
+    /*--border-blue: #0000ff;*/
+
 }
 

@@ -1,11 +1,46 @@
 body {
-    color: var(--info);
-    background-color: var(--bgc-normal);
+    color: var(--font-normal);
+    background-color: var(--bgc-blue);
 }
 header {
     background-color: var(--header-blue);
     color: var(--font-light);
 }
-a {
-    color: var(--link-active);
+.dropdown {
+    background-color: var(--header-blue);
 }
+/*左侧二级导航菜单*/
+.Hui-aside {
+    color: var(--font-light)
+}
+.menu_dropdown dt {
+    background-color: var(--menu_dropdown-dt-blue);
+}
+.menu_dropdown dd {
+    background-color: var(--menu_dropdown-dd-blue);
+}
+.Hui-aside a:hover {
+    color: var(--link-active);
+    background-color: var(--menu_dropdown-a-blue);
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px 2px var(--menu_dropdown-dd-blue);
+}
+.menu_dropdown a {
+    color: var(--font-whitesmoke)
+}
+.menu_dropdown li.current a {
+    color: var(--font-whitesmoke);
+    font-weight: bold;
+}
+.menu_dropdown dt .Hui-iconfont {
+    color: var(--font-whitesmoke);
+}
+.menu_dropdown .menu_dropdown-arrow {
+    color: var(--font-whitesmoke);
+}
+.pngfix {
+    background: url("../../../images/icon_arrow.png");
+}
+
+
+
