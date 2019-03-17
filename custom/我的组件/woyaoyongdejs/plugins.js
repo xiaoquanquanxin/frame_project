@@ -158,3 +158,17 @@
 		});
 	}
 } (window.jQuery);
+
+/* =======================================================================
+     * jQuery.Huisidenav.js 左侧菜单-隐藏显示
+     * ======================================================================== */
+//  显示隐藏aside
+$('#displaynavbar').on('click', function () {
+	if ($(this).hasClass("open")) {
+		$(this).removeClass("open");
+		$("body").removeClass("big-page");
+	} else {
+		$(this).addClass("open");
+		$("body").addClass("big-page");
+	}
+});
