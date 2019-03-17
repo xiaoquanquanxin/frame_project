@@ -326,6 +326,11 @@ $(function () {
 		console.log(v)
 		$.cookie("Huiskin", v);
 		$('#skin').attr('href', './css/skin/' + v + '.css');
+		$.each($('iframe'), function (i, t) {
+			var _iframeDocument = this.contentDocument;
+			var _$skin = _iframeDocument.getElementById('skin');
+			$(_$skin).attr('href', '../css/skin/' + v + '.css');
+		})
 	});
 
 }); 
