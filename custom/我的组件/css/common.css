@@ -97,3 +97,59 @@ header {
 .Hui-aside .menu_dropdown dt .Hui-iconfont{ color:#a0a7b1}
 .Hui-aside .menu_dropdown dt .menu_dropdown-arrow{ color:#b6b7b8}
 .dislpayArrow a{background:grey}
+
+
+
+/*页面框架*/
+.Hui-header{position:absolute;top:0; right:0; left:0;height:44px;z-index:999; padding:0 15px}
+.Hui-aside{position: absolute;top:44px;bottom:0;left:0;padding-top:0;width:199px;z-index:99;overflow:auto; background-color:rgba(238,238,238,0.98);_background-color:rgb(238,238,238);border-right: 1px solid #e5e5e5}
+.Hui-article-box{position: absolute;top:44px;right:0;bottom: 0;left:199px; overflow:hidden; z-index:1; background-color:#fff}
+.Hui-article{position: absolute;top:34px;bottom:0;left:0; right:0;overflow:auto;z-index:1}
+.Hui-container{ padding:45px 0 0}
+.Hui-aside,.Hui-article-box,.dislpayArrow{-moz-transition: all 0.2s ease 0s;-webkit-transition: all 0.2s ease 0s;-ms-transition: all 0.2s ease 0s;-o-transition: all 0.2s ease 0s;transition: all 0.2s ease 0s}
+.big-page .Hui-article-box,.big-page .dislpayArrow,.big-page .breadcrumb{left:0px}
+.big-page .Hui-aside{ left:-200px}
+.page-container{ padding:20px}
+@media (max-width: 767px) {
+    .page-container{ padding:15px}
+}
+
+
+
+
+/*4.2.6 横向导向tab导航
+	Sample:
+	<ul class="acrossTab">
+	  <li>导航一<i></i><em></em></li>
+	  <li class="active">导航二<i></i><em></em></li>
+	  <li>导航三<i></i><em></em></li>
+	</ul>
+*/
+.acrossTab,.acrossTab li,.acrossTab li em{ background-image:url(../../images/acrossTab/acrossTab-bg.png)}
+.acrossTab{height:29px; background-repeat: repeat-x; background-position: 0 0; padding-top:1px}
+.acrossTab li,.acrossTab li em{ background-repeat:no-repeat; background-position:0 0}
+.acrossTab li{position:relative;float:left; display:inline-block; height:29px; line-height:29px; font-size:12px;cursor:pointer;padding:0 30px; white-space:nowrap;color:#282828; background-position:0 0}
+.acrossTab li em{position:absolute; width:23px;height:29px;right:-20px; top:0;z-index:50; background-position:right -30px}
+.acrossTab li:hover{background-position:0 -60px}
+.acrossTab li:hover em{background-position:right -90px}
+.acrossTab li.active{background-position:0 -120px; z-index:99}
+.acrossTab li.active em{background-position:right -150px}
+.acrossTab li i{position:absolute; display:block; width:13px; height:13px; top:50%; margin-top:-6px; right:5px; font-size:0; line-height:0; cursor:pointer; background-image:url(../../images/acrossTab/acrossTab-close.png); background-repeat:no-repeat; background-position:0 0}
+.acrossTab li i:hover{background-position:0 bottom}
+
+
+
+/*横向手机 竖向平板*/
+@media (max-width: 767px) {
+    .Hui-aside{ display:none;float:none; width:100%; height:auto; margin-top:0;padding-top:0;bottom:auto}
+    .big-page .Hui-aside{ left:0!important}
+    .menu_dropdown dt{line-height:44px}
+    .menu_dropdown li,.menu_dropdown dd li,.menu_dropdown dd li a{ line-height:44px}
+    .Hui-tabNav{ position:fixed; z-index:998}
+    .Hui-article{ top:44px}
+    .Hui-article-box{ position:static; left:0}
+    .Hui-article-box .pd-20{padding:15px}
+    .Hui-article{left:0}
+    .Hui-container .bk-gray{ border:none}
+    .Hui-container .pd-10{ padding:0}
+}
