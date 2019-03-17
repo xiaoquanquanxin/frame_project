@@ -276,6 +276,7 @@ $(function () {
 		Hui_admin_tab(this);
 	});
 
+	//  选项卡
 	$(document).on("click", "#min_title_list li", function () {
 		var bStopIndex = $(this).index();
 		var iframe_box = $("#iframe_box");
