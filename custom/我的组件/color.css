@@ -33,15 +33,15 @@
     /*header*/
     --header-default: #111111;
     --header-black: #000000;
-    --header-blue: #6053ff;
+    --header-blue: #4c5685;
     /*menu*/
     --menu_dropdown-dt-default: #333333;
     --menu_dropdown-dd-default: #525252;
     --menu_dropdown-a-default: #eeeeee;
 
-    --menu_dropdown-dt-blue: #3a5edd;
+    --menu_dropdown-dt-blue: #4a6bb3;
     /*--menu_dropdown-dt-blue: #2D6DCC;*/
-    --menu_dropdown-dd-blue: #6583ff;
+    --menu_dropdown-dd-blue: #618cca;
     --menu_dropdown-a-blue: #eeeeee;
 
     /*body*/
