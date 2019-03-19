@@ -6,7 +6,7 @@ var postcssAssets = require('postcss-assets');          //  postcss-assets 插�
 
 gulp.task('css', function () {
 
-    return gulp.src('src/**/*.css')
+    return gulp.src('custom/**/*.css')
         .pipe(cssnext({
             compress: false
         }))
@@ -19,9 +19,9 @@ gulp.task('css', function () {
 });
 
 gulp.task('assets', function () {
-    return gulp.src('src/**/*.css')
+    return gulp.src('custom/**/*.css')
         .pipe(postcss([postcssAssets({
-            loadPaths: ['src/**']                       //  适配任何目录
+            loadPaths: ['custom/**']                       //  适配任何目录
         })]))
         .pipe(gulp.dest('dist/'));
 });
